@@ -1,0 +1,63 @@
+
+@media(max-width: 1345px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 375px;
+        height: 100%;
+        padding: 10px 20px;
+        background: url(/src/images/bg-mobile.svg) no-repeat center center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .main img{
+        max-width: 320px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0;
+    
+    }
+
+    .logo img {
+        height: 25px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .info .description {
+        font-size: 18px;
+        max-width: 375px;
+        max-height: 100%;
+        text-align: center;
+    }
+    .info h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}
