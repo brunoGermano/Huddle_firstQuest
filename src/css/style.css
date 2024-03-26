@@ -17,7 +17,7 @@ body {
     "footer footer";
     max-width: 1440px;
     padding: 30px 60px 60px 60px;
-    background: url(/src/images/bg-desktop.svg) no-repeat center center;
+    background: url(../images/bg-desktop.svg) no-repeat center center;
 }
 
 .logo {
@@ -61,7 +61,6 @@ body {
     line-height: 30px;
     margin: 20px 0;
     max-width: 464px;
-    /* max-height: 90px; */
 }
 
 .info .button {
